@@ -1,11 +1,5 @@
-# Workflows
-.github/ 
-
 # Carpeta del profesor completa (soluciones, guías, etc.)
 profesor/
-
-# Script de validación de datasets (herramienta interna)
-validar_datasets.py
 
 # Prácticas de estudiantes (excepto P01)
 practicas/P02_Debate_Etica_IA.md
