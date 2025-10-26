@@ -1,0 +1,75 @@
+# Workflows
+.github/ 
+
+# Carpeta del profesor completa (soluciones, guías, etc.)
+profesor/
+
+# Script de validación de datasets (herramienta interna)
+validar_datasets.py
+
+# Prácticas de estudiantes (excepto P01)
+practicas/P02_Debate_Etica_IA.md
+practicas/P03_Configuracion_Analisis.md
+practicas/P04_minilab_datos.md
+practicas/P04b_Siuba_fundamentos.md
+practicas/P05_Regresion_Lineal.md
+practicas/P06_Clustering_Clientes.md
+
+# Rúbricas de evaluación (excepto P01)
+rubricas/R02_P02_Debate_Etica_IA.md
+rubricas/R03_P03_Configuracion_Analisis.md
+rubricas/R04_P04_Minilab_Datos.md
+rubricas/R04b_B2_U4b_Siuba.md
+rubricas/R05_P05_Regresion_Lineal.md
+rubricas/R06_P06_Clustering_Clientes.md
+
+# Programación y documentación interna
+programacion/
+
+# Bloques de contenido no relacionados con la unidad 1
+bloques/B2_Fundamentos_Tecnicos/
+bloques/B3_Supervisado_NoSupervisado/
+bloques/B4_Deep_Learning/
+bloques/B5_IA_Generativa_y_APIs/
+bloques/B6_Proyecto_Final/
+
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+venv_ia_daw/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Claves API y configuración sensible
+.env
+*.env
+config/secrets.json
+
+# Archivos de datos temporales o generados
+*.csv.backup
+*_temp.csv
+output/
+temp/

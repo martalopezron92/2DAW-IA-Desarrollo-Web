@@ -1,0 +1,101 @@
+resena_id,producto,texto,sentimiento,puntuacion
+R001,Smartphone,"Excelente teléfono, la cámara es increíble y la batería dura todo el día",positivo,5
+R002,Laptop,"El ordenador funciona bien pero es un poco lento para tareas pesadas",neutro,3
+R003,Auriculares,"Terrible calidad de sonido, se rompieron a la semana de comprarlos",negativo,1
+R004,Tablet,"Me encanta, perfecta para leer y ver películas. Muy recomendable",positivo,5
+R005,Smartwatch,"El reloj está bien pero la correa es incómoda y se ensucia fácilmente",neutro,3
+R006,Cámara,"Decepcionante, las fotos salen borrosas y el zoom no funciona correctamente",negativo,2
+R007,Monitor,"Pantalla de gran calidad, colores vibrantes y perfecto para gaming",positivo,5
+R008,Teclado,"Funciona como esperaba, nada extraordinario pero cumple su función",neutro,3
+R009,Ratón,"Pésimo producto, se desconecta constantemente y los clics fallan",negativo,1
+R010,Altavoces,"Sonido cristalino y graves potentes, superó mis expectativas",positivo,4
+R011,Router,"La conexión es estable pero la configuración inicial fue complicada",neutro,3
+R012,Impresora,"No imprime bien, las hojas se atascan y la calidad es muy mala",negativo,2
+R013,Disco_duro,"Rápido y silencioso, excelente para almacenar mis archivos",positivo,4
+R014,Webcam,"La imagen es aceptable pero en condiciones de poca luz es terrible",neutro,3
+R015,Micrófono,"Audio muy claro para videoconferencias, fácil de usar",positivo,4
+R016,Smartphone,"La pantalla se rayó enseguida y la batería no dura ni medio día",negativo,2
+R017,Laptop,"Potente y rápida, ideal para programar y diseño gráfico",positivo,5
+R018,Auriculares,"Cómodos para usar durante horas, el sonido es decente",neutro,3
+R019,Tablet,"Muy lenta, se cuelga constantemente y la pantalla tiene manchas",negativo,1
+R020,Smartwatch,"Fantástico para hacer deporte, mide todo perfectamente",positivo,5
+R021,Cámara,"Buena relación calidad-precio, las fotos son nítidas",positivo,4
+R022,Monitor,"Tamaño perfecto pero los colores se ven algo apagados",neutro,3
+R023,Teclado,"Las teclas se atascan y hacen mucho ruido al escribir",negativo,2
+R024,Ratón,"Ergonómico y preciso, perfecto para trabajar largas horas",positivo,4
+R025,Altavoces,"El volumen es bajo y distorsiona con música alta",neutro,3
+R026,Router,"Conexión inestable, se desconecta varias veces al día",negativo,2
+R027,Impresora,"Imprime rápido y con buena calidad, muy satisfecho",positivo,4
+R028,Disco_duro,"Funciona correctamente pero es más ruidoso de lo esperado",neutro,3
+R029,Webcam,"Imagen horrible, parece de los años 90, no la recomiendo",negativo,1
+R030,Micrófono,"Excelente calidad de grabación, perfecto para podcasts",positivo,5
+R031,Smartphone,"Regular, cumple las funciones básicas pero nada más",neutro,3
+R032,Laptop,"Se calienta mucho y el ventilador hace ruido constantemente",negativo,2
+R033,Auriculares,"Increíble calidad de sonido, se oye cada detalle de la música",positivo,5
+R034,Tablet,"Buena para tareas básicas pero no para aplicaciones exigentes",neutro,3
+R035,Smartwatch,"No sincroniza bien con el teléfono, muy frustrante",negativo,2
+R036,Cámara,"Perfecta para fotografía profesional, resultados espectaculares",positivo,5
+R037,Monitor,"Correcto para oficina, aunque los ángulos de visión son limitados",neutro,3
+R038,Teclado,"Muy cómodo para escribir, teclas suaves y silenciosas",positivo,4
+R039,Ratón,"Demasiado pequeño para mi mano, resulta incómodo",neutro,3
+R040,Altavoces,"Graves inexistentes y agudos chirriantes, muy mal sonido",negativo,1
+R041,Router,"Excelente cobertura en toda la casa, muy contento",positivo,4
+R042,Impresora,"Lenta y costosa de mantener, los cartuchos son caros",negativo,2
+R043,Disco_duro,"Muy confiable, llevo años usándolo sin problemas",positivo,4
+R044,Webcam,"Calidad aceptable para videollamadas casuales",neutro,3
+R045,Micrófono,"Se escuchan interferencias y la calidad es mediocre",negativo,2
+R046,Smartphone,"Cámara espectacular y rendimiento fluido, lo recomiendo",positivo,5
+R047,Laptop,"Buena duración de batería pero la pantalla podría ser mejor",neutro,3
+R048,Auriculares,"Se rompen fácilmente, ya es el segundo par que compro",negativo,2
+R049,Tablet,"Perfecta relación calidad-precio, muy contenta con la compra",positivo,4
+R050,Smartwatch,"Muchas funciones útiles para el día a día, me encanta",positivo,5
+R051,Cámara,"Las fotos nocturnas salen muy mal, decepcionante",negativo,2
+R052,Monitor,"Excelente para gaming, respuesta rápida y sin lag",positivo,5
+R053,Teclado,"Diseño bonito pero la calidad de construcción es pobre",neutro,3
+R054,Ratón,"Funciona bien para uso básico de oficina",neutro,3
+R055,Altavoces,"Sonido equilibrado y buen volumen, satisfecho",positivo,4
+R056,Router,"Difícil de configurar y el soporte técnico es malísimo",negativo,2
+R057,Impresora,"Rápida y eficiente, perfecta para la oficina",positivo,4
+R058,Disco_duro,"Espacio suficiente y transferencias rápidas",positivo,4
+R059,Webcam,"La peor compra que he hecho, imagen borrosa siempre",negativo,1
+R060,Micrófono,"Buena calidad para el precio que tiene",neutro,3
+R061,Smartphone,"Batería excelente, aguanta dos días sin cargar",positivo,5
+R062,Laptop,"Demasiado pesada para transportar, pero muy potente",neutro,3
+R063,Auriculares,"Cancelación de ruido perfecta, ideales para viajar",positivo,5
+R064,Tablet,"La pantalla se ve pixelada y los colores son apagados",negativo,2
+R065,Smartwatch,"No es resistente al agua como prometían",negativo,2
+R066,Cámara,"Fácil de usar y resultados profesionales",positivo,4
+R067,Monitor,"Buena calidad de imagen pero el soporte es inestable",neutro,3
+R068,Teclado,"Retroiluminación perfecta para trabajar de noche",positivo,4
+R069,Ratón,"Sensor muy preciso, ideal para diseño gráfico",positivo,4
+R070,Altavoces,"Potencia correcta pero falta definición en medios",neutro,3
+R071,Router,"Velocidad excelente, navego sin problemas",positivo,4
+R072,Impresora,"Los colores no coinciden con lo que veo en pantalla",negativo,2
+R073,Disco_duro,"Buena capacidad pero más lento de lo esperado",neutro,3
+R074,Webcam,"Perfecta para streaming, imagen muy nítida",positivo,4
+R075,Micrófono,"Capta demasiado ruido de fondo, necesita mejoras",negativo,2
+R076,Smartphone,"Interfaz confusa y aplicaciones que se cierran solas",negativo,2
+R077,Laptop,"Excelente para estudiantes, liviana y potente",positivo,4
+R078,Auriculares,"Cómodos pero el cable es muy corto",neutro,3
+R079,Tablet,"Ideal para niños, resistente y fácil de usar",positivo,4
+R080,Smartwatch,"Pantalla muy pequeña, difícil de leer",negativo,2
+R081,Cámara,"Zoom óptico impresionante, capta detalles increíbles",positivo,5
+R082,Monitor,"Tamaño perfecto para mi escritorio, muy satisfecho",positivo,4
+R083,Teclado,"Teclas que se desgastan rápidamente",negativo,2
+R084,Ratón,"Buen agarre y deslizamiento suave",positivo,4
+R085,Altavoces,"Diseño elegante pero sonido mediocre",neutro,3
+R086,Router,"Configuración sencilla y cobertura estable",positivo,4
+R087,Impresora,"Consume mucha tinta y imprime lento",negativo,2
+R088,Disco_duro,"Perfecto para backup, muy confiable",positivo,4
+R089,Webcam,"Imagen decente para el precio que pagué",neutro,3
+R090,Micrófono,"Sonido profesional, perfecto para grabar",positivo,5
+R091,Smartphone,"Muchas funciones pero batería pobre",neutro,3
+R092,Laptop,"Se cuelga frecuentemente, muy frustrante",negativo,1
+R093,Auriculares,"Aislamiento perfecto, no se escucha nada externo",positivo,5
+R094,Tablet,"Rendimiento fluido y pantalla brillante",positivo,4
+R095,Smartwatch,"GPS preciso y métricas de salud útiles",positivo,4
+R096,Cámara,"Menús complicados pero resultados excelentes",neutro,3
+R097,Monitor,"Colores vibrantes y contraste perfecto",positivo,5
+R098,Teclado,"Escribir es un placer, muy recomendable",positivo,5
+R099,Ratón,"Demasiado sensible, difícil de controlar",negativo,2
+R100,Altavoces,"Superaron mis expectativas, sonido increíble",positivo,5
