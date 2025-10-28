@@ -4,7 +4,7 @@
 
 - **Unidad**: U1 - ¿Qué es la inteligencia artificial?
 - **Bloque**: B1 - Introducción a la IA
-- **Tipo**: Práctica formativa (4% de la calificación final)
+<!-- - **Tipo**: Práctica formativa (4% de la calificación final) -->
 - **Modalidad**: Individual
 - **Duración**: 2 semanas
 - **Entrega**: Informe escrito + presentación oral (5 min)
@@ -264,7 +264,7 @@ Formato APA 7ª edición, mínimo 10 fuentes diversas.
 
 ## 🆘 Recursos de apoyo
 
-### Tutorías
+<!-- ### Tutorías
 - **Presenciales**: Martes y jueves de 16:00-17:00
 - **Online**: Por Google Meet previa cita
 - **Email**: Para consultas rápidas sobre fuentes o enfoque
@@ -272,7 +272,7 @@ Formato APA 7ª edición, mínimo 10 fuentes diversas.
 ### Materiales de apoyo
 - **Guía de redacción académica**: Disponible en el aula virtual
 - **Tutorial de presentaciones**: Video explicativo incluido
-- **Ejemplos de años anteriores**: Para referencia de calidad esperada
+- **Ejemplos de años anteriores**: Para referencia de calidad esperada -->
 
 ## 📝 Preguntas frecuentes
 
