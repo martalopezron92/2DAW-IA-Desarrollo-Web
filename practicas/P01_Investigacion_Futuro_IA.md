@@ -6,7 +6,6 @@
 - **Bloque**: B1 - Introducción a la IA
 <!-- - **Tipo**: Práctica formativa (4% de la calificación final) -->
 - **Modalidad**: Individual
-- **Duración**: 2 semanas
 - **Entrega**: Informe escrito + presentación oral (5 min)
 
 ## 🎯 Objetivos
@@ -249,18 +248,6 @@ Formato APA 7ª edición, mínimo 10 fuentes diversas.
 - **Creatividad**: Enfoque original o insights únicos (+0.5 puntos)
 - **Entregables extra**: Infografía, video o blog (+0.3 puntos)
 - **Participación**: Preguntas constructivas en otras presentaciones (+0.2 puntos)
-
-## 📅 Cronograma sugerido
-
-### Semana 1
-- **Días 1-2**: Definir enfoque específico y objetivos
-- **Días 3-4**: Búsqueda inicial de fuentes y lectura exploratoria
-- **Días 5-7**: Investigación profunda en áreas seleccionadas
-
-### Semana 2
-- **Días 1-3**: Análisis de casos de estudio y redacción de borradores
-- **Días 4-5**: Escritura del informe final y correcciones
-- **Días 6-7**: Preparación de presentación y ensayos
 
 ## 🆘 Recursos de apoyo
 
