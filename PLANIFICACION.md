@@ -131,23 +131,23 @@
 
 | Semana | Bloque | Unidad | Contenido principal | Evaluación |
 |--------|--------|--------|-------------------|------------|
-| 1-2 | B1 | U1 | Historia y tipos de IA | P01 (formativa) |
-| 3 | B1 | U2 | Ética y legislación | P02 (sumativa) |
-| 4-5 | B2 | U3 | ML básicos y datasets | P03 (formativa) |
-| 6-7 | B2 | U4 | Python y herramientas | P04 (sumativa) |
-| 8 | B2 | U4b | Siuba para datos | P04b (formativa) |
-| 9-11 | B3 | U5 | Regresión/clasificación | P05 (sumativa) |
+| 1-2 | B1 | U1 | Historia y tipos de IA | P01  |
+| 3 | B1 | U2 | Ética y legislación | P02 |
+| 4-5 | B2 | U3 | ML básicos y datasets | P03  |
+| 6-7 | B2 | U4 | Python y herramientas | P04  |
+| 8 | B2 | U4b | Siuba para datos | P04b |
+| 9-11 | B3 | U5 | Regresión/clasificación | P05 |
 | 12 | B3 | U6 | Clustering (inicio) | - |
 
 ### Segundo Trimestre (Semanas 13-24)
 
 | Semana | Bloque | Unidad | Contenido principal | Evaluación |
 |--------|--------|--------|-------------------|------------|
-| 13 | B3 | U6 | Clustering y PCA | P06 (sumativa) |
-| 14-15 | B4 | U7 | Redes neuronales | P07 (formativa) |
-| 16-18 | B4 | U8 | Visión y texto | P08 (sumativa) |
-| 19-20 | B5 | U9 | IA generativa | P09 (formativa) |
-| 21-23 | B5 | U10 | Integración web | P10 (sumativa) |
+| 13 | B3 | U6 | Clustering y PCA | P06  |
+| 14-15 | B4 | U7 | Redes neuronales | P07  |
+| 16-18 | B4 | U8 | Visión y texto | P08  |
+| 19-20 | B5 | U9 | IA generativa | P09  |
+| 21-23 | B5 | U10 | Integración web | P10  |
 | 24 | B6 | U11 | Proyecto final (inicio) | - |
 
 ### Tercer Trimestre (Semanas 25-30)
@@ -155,7 +155,7 @@
 | Semana | Bloque | Unidad | Contenido principal | Evaluación |
 |--------|--------|--------|-------------------|------------|
 | 25-27 | B6 | U11 | Desarrollo proyecto | Seguimiento |
-| 28 | B6 | U11 | Finalización proyecto | P11 (sumativa) |
+| 28 | B6 | U11 | Finalización proyecto | P11  |
 | 29 | - | - | Presentaciones | Defensa oral |
 | 30 | - | - | Evaluación final | Recuperación |
 

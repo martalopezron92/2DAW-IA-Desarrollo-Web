@@ -90,54 +90,54 @@ Analizar ejemplos reales de implementación de IA en empresas:
 ## 📋 Estructura del informe
 
 ### Formato
-- **Extensión**: 2.500-3.500 palabras
+- **Extensión**: 1.000-1.500 palabras
 - **Formato**: PDF con portada, índice y referencias
-- **Fuentes**: Mínimo 10 referencias académicas y profesionales
+- **Fuentes**: Mínimo 5 referencias académicas y profesionales
 - **Imágenes**: Al menos 3 figuras, gráficos o diagramas
 
 ### Estructura obligatoria
 
-#### 1. Resumen ejecutivo (300 palabras)
+#### 1. Resumen ejecutivo 
 Síntesis de los hallazgos principales y conclusiones clave.
 
-#### 2. Introducción (400 palabras)
+#### 2. Introducción 
 - Contexto de la investigación
 - Objetivos específicos
 - Metodología utilizada
 - Estructura del informe
 
-#### 3. Estado actual de la IA en desarrollo web (800 palabras)
+#### 3. Estado actual de la IA en desarrollo web 
 - Tecnologías más utilizadas actualmente
 - Adopción por parte de la industria
 - Barreras y limitaciones existentes
 
-#### 4. Tendencias emergentes (600 palabras)
+#### 4. Tendencias emergentes 
 - Tecnologías en desarrollo
 - Startups y productos innovadores
 - Inversión y financiación en el sector
 
-#### 5. Impacto en el empleo y competencias (600 palabras)
+#### 5. Impacto en el empleo y competencias 
 - Análisis de ofertas de trabajo actuales
 - Evolución de perfiles profesionales
 - Competencias más demandadas
 
-#### 6. Casos de estudio (500 palabras)
+#### 6. Casos de estudio 
 - 2 casos de éxito analizados en profundidad
 - Factores críticos identificados
 - Aplicabilidad a otros contextos
 
-#### 7. Predicciones y escenarios futuros (400 palabras)
+#### 7. Predicciones y escenarios futuros 
 - Tendencias con mayor probabilidad
 - Factores de incertidumbre
 - Recomendaciones para profesionales
 
-#### 8. Conclusiones y reflexión personal (300 palabras)
+#### 8. Conclusiones y reflexión personal 
 - Síntesis de hallazgos
 - Implicaciones para tu carrera profesional
 - Próximos pasos de aprendizaje
 
 #### 9. Referencias bibliográficas
-Formato APA 7ª edición, mínimo 10 fuentes diversas.
+Formato APA 7ª edición.
 
 ## 🎤 Presentación oral
 
