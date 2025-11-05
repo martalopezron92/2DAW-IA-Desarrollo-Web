@@ -10,9 +10,9 @@ Al finalizar esta unidad, el estudiante será capaz de:
 - **Aplicar** principios de IA responsable en el desarrollo de proyectos
 - **Argumentar** sobre dilemas éticos en sistemas automatizados de decisión
 
-## ⏱️ Duración estimada
+<!-- ## ⏱️ Duración estimada
 
-**9 horas** distribuidas en 3 semanas (3 sesiones de 3 horas cada una)
+**9 horas** distribuidas en 3 semanas (3 sesiones de 3 horas cada una) -->
 
 ## 📚 Contenidos
 

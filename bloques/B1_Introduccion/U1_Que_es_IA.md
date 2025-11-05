@@ -10,9 +10,9 @@ Al finalizar esta unidad, el estudiante será capaz de:
 - **Relacionar** las aplicaciones de IA con casos de uso en desarrollo web
 - **Evaluar** el impacto de la IA en la sociedad y el mundo profesional
 
-## ⏱️ Duración estimada
+<!-- ## ⏱️ Duración estimada
 
-**6 horas** distribuidas en 2 semanas (3 sesiones de 2 horas cada una)
+**6 horas** distribuidas en 2 semanas (3 sesiones de 2 horas cada una) -->
 
 ## 📚 Contenidos
 
