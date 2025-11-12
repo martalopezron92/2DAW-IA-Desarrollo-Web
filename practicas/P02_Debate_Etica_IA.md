@@ -5,8 +5,9 @@
 - **Unidad**: U2 - Ética, sesgos y legislación en IA
 - **Bloque**: B1 - Introducción a la IA
 - **Modalidad**: Grupal (3-4 estudiantes) 
-- **Duración**: 1 semana
+- **Duración**: 1 hora
 - **Entrega**: Debate grupal
+
 ## 🎯 Objetivos
 
 Al completar esta práctica, el estudiante será capaz de:
@@ -23,27 +24,66 @@ Al completar esta práctica, el estudiante será capaz de:
 
 #### Formato del debate
 - **Modalidad**: Debate académico estructurado
-- **Duración**: 45 minutos por grupo
+- **Duración**: 25 minutos por grupo
 - **Estructura**: Oxford-style debate
 - **Participantes**: 2 equipos de 3-4 estudiantes cada uno
 
 #### Temas de debate disponibles
 
-**Tema 1: "Los algoritmos de selección de personal deberían estar regulados por ley"**
-- **Posición A favor**: Regulación estricta es necesaria para prevenir discriminación
-- **Posición En contra**: La regulación excesiva limitará la innovación y eficiencia
+**Tema 1: "Deberíamos priorizar la equidad algorítmica aunque reduzca la precisión del sistema"**
 
-**Tema 2: "Las redes sociales tienen responsabilidad moral sobre el contenido que recomiendan"**
-- **Posición A favor**: Las plataformas deben ser responsables del impacto social
-- **Posición En contra**: Son meros facilitadores tecnológicos sin responsabilidad editorial
+*Contexto: Un algoritmo de contratación con 95% de precisión tiene sesgo de género. Corregirlo reduce la precisión al 87% pero elimina el sesgo.*
 
-**Tema 3: "La IA debería poder tomar decisiones médicas sin supervisión humana"**
-- **Posición A favor**: La IA es más precisa y puede salvar más vidas
-- **Posición En contra**: Las decisiones médicas requieren empatía y juicio humano
+- **Posición A**: La equidad es un imperativo ético que justifica sacrificar precisión. Un sistema justo al 87% es mejor que uno preciso pero discriminatorio al 95%.
+- **Posición B**: La precisión maximiza beneficios generales. Reducir precisión perjudica a todos (incluidos grupos protegidos). Mejor corregir sesgos sin comprometer rendimiento.
 
-**Tema 4: "Los sistemas de reconocimiento facial deberían prohibirse en espacios públicos"**
-- **Posición A favor**: Violación de privacidad y riesgo de vigilancia masiva
-- **Posición En contra**: Herramienta esencial para seguridad y conveniencia
+**Dilema**: ¿Equidad absoluta vs. beneficio general? ¿Cuánta precisión estamos dispuestos a perder por equidad?
+
+---
+
+**Tema 2: "Una IA debe poder mentir si salva vidas"**
+
+*Contexto: Un chatbot de salud mental detecta que un usuario está considerando suicidio. ¿Puede mentir sobre "enviar ayuda" para mantenerlo hablando hasta que llegue asistencia real?*
+
+- **Posición A**: La preservación de la vida humana es el valor supremo. Si mentir salva vidas, es éticamente justificable. El fin (salvar vida) justifica el medio (mentir).
+- **Posición B**: La confianza en sistemas de IA es fundamental. Una vez que permitimos mentir "por buenas razones", abrimos la puerta a abusos. La transparencia no debe comprometerse nunca.
+
+**Dilema**: ¿Consecuencialismo vs. deontología? ¿Quién decide cuándo está justificada la mentira?
+
+---
+
+**Tema 3: "Es aceptable usar datos sesgados históricos si corregimos las predicciones después"**
+
+*Contexto: Tenemos 50 años de datos de préstamos bancarios con discriminación racial histórica. Podemos: (A) Usar todos los datos y corregir sesgos después, o (B) Eliminar datos sesgados pero tener menos datos para entrenar.*
+
+- **Posición A**: Aprovechar toda la información disponible y corregir matemáticamente es más efectivo. Los datos históricos contienen patrones valiosos más allá del sesgo. Post-procesamiento es suficiente.
+- **Posición B**: "Garbage in, garbage out". Los sesgos se propagan de formas invisibles. Es mejor tener menos datos limpios que muchos datos corruptos. Pre-procesamiento es insuficiente.
+
+**Dilema**: ¿Podemos realmente "limpiar" sesgos históricos? ¿Cantidad de datos vs. calidad ética?
+
+---
+
+**Tema 4: "Los desarrolladores de IA tienen mayor responsabilidad ética que los usuarios"**
+
+*Contexto: Un usuario usa ChatGPT para escribir fake news que causan daño. ¿Quién es más responsable: OpenAI (creador) o el usuario (ejecutor)?*
+
+- **Posición A**: Los desarrolladores crean herramientas potencialmente peligrosas y deben anticipar abusos. Tienen conocimiento técnico y poder para prevenir. Responsabilidad del creador es mayor (como fabricante de armas).
+- **Posición B**: Los usuarios tienen agencia y libre albedrío. Culpar a desarrolladores es como culpar a fabricantes de cuchillos por asesinatos. La responsabilidad principal recae en quien ejecuta la acción dañina.
+
+**Dilema**: ¿Dónde termina la responsabilidad del creador? ¿Hasta qué punto debemos limitar herramientas por potencial abuso?
+
+---
+
+**Tema 5: "Es ético usar IA para predecir crímenes antes de que ocurran"**
+
+*Contexto: Un sistema de IA predice con 70% de precisión quién cometerá un crimen en los próximos 6 meses basándose en datos socioeconómicos, historial y comportamiento. ¿Usamos esta información?*
+
+- **Posición A**: Si podemos prevenir crímenes y salvar víctimas potenciales, tenemos obligación moral de hacerlo. La predicción permite intervención preventiva (trabajo social, terapia) que beneficia a todos.
+- **Posición B**: Esto es castigar/estigmatizar a personas por crímenes no cometidos. 30% de falsos positivos arruinará vidas inocentes. Viola presunción de inocencia y reproduce sesgos estructurales.
+
+**Dilema**: ¿Prevención vs. presunción de inocencia? ¿Cuánta precisión necesitamos para justificar acción predictiva?
+
+---
 
 #### Estructura del debate
 
@@ -52,24 +92,47 @@ Al completar esta práctica, el estudiante será capaz de:
 - Distribución de roles (moderador, cronometrador, etc.)
 - Configuración técnica
 
-**2. Apertura (10 minutos)**
+**2. Apertura (8 minutos)**
 - **Presentación del tema** (moderador): 2 minutos
-- **Declaración inicial Equipo A**: 4 minutos
-- **Declaración inicial Equipo B**: 4 minutos
+- **Discurso de apertura Equipo A**: 3 minutos
+  - Exponer tesis principal y argumentos clave
+- **Discurso de apertura Equipo B**: 3 minutos
+  - Exponer contra-tesis y argumentos principales
 
-**3. Argumentación (20 minutos)**
-- **Primera ronda de argumentos**:
-  - Equipo A: 3 minutos
-  - Equipo B: 3 minutos
-- **Segunda ronda de argumentos**:
-  - Equipo B: 3 minutos
-  - Equipo A: 3 minutos
-- **Refutaciones cruzadas**: 8 minutos (4 min por equipo)
+**3. Argumentación y refutación (25 minutos)**
+- **Primer orador Equipo A**: 3 minutos
+  - Desarrollar primer argumento principal
+- **Primer orador Equipo B - REFUTA**: 3 minutos
+  - Contra-argumentar el punto anterior Y presentar argumento propio
+- **Segundo orador Equipo A - REFUTA**: 3 minutos
+  - Defender posición inicial Y refutar argumento del Equipo B
+- **Segundo orador Equipo B - REFUTA**: 3 minutos
+  - Continuar refutación Y desarrollar nuevo argumento
+- **Tercer orador Equipo A - REFUTA**: 3 minutos
+  - Reforzar argumentos Y contra-atacar puntos débiles detectados
+- **Tercer orador Equipo B - REFUTA**: 3 minutos
+  - Responder refutaciones Y consolidar posición
+- **Ronda libre de contra-argumentación**: 7 minutos
+  - **Formato**: Intercambio rápido y directo entre equipos
+  - **Mecánica**: 
+    - Turnos de 1 minuto alternados entre equipos
+    - Cualquier miembro del equipo puede intervenir
+    - El moderador da la palabra levantando la mano
+  - **Objetivo**: 
+    - Atacar puntos débiles específicos del equipo contrario
+    - Responder ataques directos
+    - Clarificar malentendidos o tergiversaciones
+    - Forzar al equipo contrario a defender inconsistencias
 
-**4. Cierre (10 minutos)**
-- **Declaración final Equipo B**: 3 minutos
-- **Declaración final Equipo A**: 3 minutos
-- **Preguntas de la audiencia**: 4 minutos
+**4. Resúmenes finales (8 minutos)**
+- **Resumen final Equipo B**: 4 minutos
+  - Sintetizar argumentos principales, refutar ataques clave, conclusión fuerte
+- **Resumen final Equipo A**: 4 minutos
+  - Sintetizar posición, responder últimas refutaciones, llamado final
+
+**5. Preguntas y cierre (4 minutos)**
+- **Preguntas de la audiencia**: 3 minutos
+- **Comentarios finales del moderador**: 1 minuto
 
 **5. Evaluación (5 minutos)**
 - Votación de la audiencia (no vinculante)

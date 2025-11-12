@@ -584,42 +584,31 @@ y_pred_fair = pipeline.predict(X_test)
 
 ---
 
-## ⚖️ ¿Qué dice la ley? GDPR y más
+## ⚖️ ¿Qué dice la ley?
 
 ### 🇪🇺 **GDPR: Tus derechos ante la IA**
 
 #### 📜 **Artículo 22 - El más importante:**
 > *"Derecho a no ser objeto de una decisión basada únicamente en tratamiento automatizado"*
 
-#### 🔍 **¿Qué significa en la práctica?**
+---
 
-```javascript
-// ANTES: Decisión 100% automática
-function aprobar_prestamo(datos_usuario) {
-    return algoritmo_ia.decidir(datos_usuario); // ❌ Ilegal
-}
+## 🟢 Los 5 pilares de la IA ética
 
-// DESPUÉS: Supervisión humana obligatoria
-function aprobar_prestamo_legal(datos_usuario) {
-    recomendacion_ia = algoritmo_ia.sugerir(datos_usuario);
-    decision_final = humano.revisar(recomendacion_ia, datos_usuario);
-    
-    // Guardar justificación
-    log.guardar({
-        'recomendacion_ia': recomendacion_ia,
-        'decision_humana': decision_final,
-        'justificacion': humano.explicacion
-    });
-    
-    return decision_final; // ✅ Legal
-}
-```
+### 1. ⚖️ **Fairness (Equidad)**
+**¿Qué significa?** Tratamiento justo para todos
 
-### 🛡️ **Tus derechos como usuario:**
-1. **🔍 Derecho de explicación:** "¿Por qué me negaron el crédito?"
-2. **📥 Portabilidad:** Llevarte tus datos a otra empresa
-3. **🗑️ Derecho al olvido:** Eliminar tus datos
-4. **👥 Supervisión humana:** Que una persona revise decisiones importantes
+### 2. 📊 **Transparency (Transparencia)**
+**¿Qué hace tu IA?** Explicarlo claramente
+
+### 3. 🎯 **Explainability (Explicabilidad)**
+**¿Por qué esta decisión?** Poder explicar cada resultado
+
+### 4. 🛡️ **Accountability (Responsabilidad)**
+**¿Quién responde si algo sale mal?** Responsabilidades claras
+
+### 5. 🔒 **Privacy (Privacidad)**
+**¿Cómo proteges los datos?** Seguridad y minimización
 
 ---
 
@@ -637,169 +626,12 @@ function aprobar_prestamo_legal(datos_usuario) {
 - 💰 Evaluación crediticia
 - 🎓 Sistemas de calificación educativa
 
-### 💭 **¿En qué categoría pondrías un sistema de recomendación de Netflix?**
-
----
-
 ## 🟡 **RIESGO LIMITADO** (Transparencia obligatoria)
 
 ### 📱 **Ejemplos que usas diariamente:**
 - 🤖 Chatbots y asistentes virtuales
 - 📺 Sistemas de recomendación (Netflix, YouTube)
 - 🖼️ Deepfakes y contenido generado por IA
-
-### 📋 **Obligaciones legales:**
-```html
-<!-- ANTES: Sin avisos -->
-<div class="chat">
-    <p>¡Hola! ¿En qué puedo ayudarte?</p>
-</div>
-
-<!-- DESPUÉS: Transparencia obligatoria -->
-<div class="chat">
-    <div class="ai-notice">
-        🤖 Este chat es atendido por inteligencia artificial
-        <a href="/info-ai">Más información</a>
-    </div>
-    <p>¡Hola! ¿En qué puedo ayudarte?</p>
-</div>
-```
-
-### 🤔 **¿Has visto avisos así en alguna web o app?**
-
----
-
-## 🟢 Los 5 pilares de la IA ética
-
-### 1. ⚖️ **Fairness (Equidad)**
-**¿Qué significa?** Tratamiento justo para todos
-
-**En la práctica:**
-```python
-# Verificar equidad en recomendaciones
-def verificar_equidad_recomendaciones(usuarios, recomendaciones):
-    # Verificar diversidad por género
-    rec_hombres = recomendaciones[usuarios['genero'] == 'M']
-    rec_mujeres = recomendaciones[usuarios['genero'] == 'F']
-    
-    # ¿Los hombres y mujeres reciben diversidad similar?
-    diversidad_h = calcular_diversidad(rec_hombres)
-    diversidad_m = calcular_diversidad(rec_mujeres)
-    
-    if abs(diversidad_h - diversidad_m) > 0.1:
-        return "⚠️ Posible inequidad en diversidad"
-    return "✅ Equidad verificada"
-```
-
-### 💭 **¿Qué otros aspectos deberíamos verificar además del género?**
-
----
-
-### 2. 📊 **Transparency (Transparencia)**
-**¿Qué hace tu IA?** Explicarlo claramente
-
-```javascript
-// Interfaz transparente
-class TransparentAI {
-    mostrarExplicacion() {
-        return `
-            <div class="ai-explanation">
-                <h3>¿Cómo funciona nuestra IA?</h3>
-                <p>📊 Analizamos tu historial de compras</p>
-                <p>👥 Comparamos con usuarios similares</p>
-                <p>🎯 Sugerimos productos que podrían gustarte</p>
-                <button onclick="verMasDetalles()">Ver más detalles</button>
-            </div>
-        `;
-    }
-}
-```
-
-### 3. 🎯 **Explainability (Explicabilidad)**
-**¿Por qué esta decisión?** Poder explicar cada resultado
-
-### 4. 🛡️ **Accountability (Responsabilidad)**
-**¿Quién responde si algo sale mal?** Responsabilidades claras
-
-### 5. 🔒 **Privacy (Privacidad)**
-**¿Cómo proteges los datos?** Seguridad y minimización
-
----
-
-## 🔧 IA responsable: Código práctico
-
-### 💻 **Consentimiento transparente:**
-
-```javascript
-class AIConsentManager {
-    constructor() {
-        this.consentimientos = {};
-    }
-    
-    solicitarConsentimiento(tipoIA) {
-        const explicaciones = {
-            'recomendacion': `
-                <div class="consent-card">
-                    <h3>🎯 Sistema de Recomendaciones</h3>
-                    <p><strong>¿Qué hace?</strong> Analiza tus compras para sugerir productos</p>
-                    <p><strong>¿Qué datos usa?</strong> Historial, navegación, preferencias</p>
-                    <p><strong>¿Puedes controlarlo?</strong> Sí, en configuración de privacidad</p>
-                    <p><strong>¿Quién decide?</strong> El algoritmo sugiere, tú eliges</p>
-                    
-                    <button onclick="aceptar('recomendacion')">✅ Acepto</button>
-                    <button onclick="rechazar('recomendacion')">❌ No gracias</button>
-                </div>
-            `
-        };
-        
-        return explicaciones[tipoIA];
-    }
-}
-```
-
-### 🤔 **¿Qué información adicional incluirías para ser más transparente?**
-
----
-
-## 📊 Sistema de monitoreo ético
-
-### 🔍 **Dashboard de métricas éticas:**
-
-```python
-class EthicsMonitor:
-    def generar_reporte_semanal(self):
-        """Reporte automático de métricas éticas"""
-        
-        metricas = {
-            # Equidad
-            'disparidad_genero': self.calcular_disparidad('genero'),
-            'disparidad_edad': self.calcular_disparidad('edad'),
-            
-            # Transparencia
-            'usuarios_informados': self.porcentaje_usuarios_informados(),
-            'explicaciones_solicitadas': self.count_explicaciones(),
-            
-            # Privacidad
-            'datos_minimizados': self.verificar_minimizacion(),
-            'consentimientos_validos': self.verificar_consentimientos()
-        }
-        
-        # Generar alertas si algo va mal
-        alertas = []
-        if metricas['disparidad_genero'] > 1.2:
-            alertas.append("🚨 Disparidad de género detectada")
-        
-        if metricas['usuarios_informados'] < 0.8:
-            alertas.append("⚠️ Baja transparencia con usuarios")
-            
-        return {
-            'metricas': metricas,
-            'alertas': alertas,
-            'recomendaciones': self.generar_recomendaciones(metricas)
-        }
-```
-
-### 💭 **¿Qué otras métricas deberíamos monitorear?**
 
 ---
 
@@ -835,8 +667,6 @@ class NetflixEthicalRecommender:
         
         return final_recs
 ```
-
-### 🤔 **¿Crees que Netflix hace suficiente para ser ético? ¿Qué mejorarías?**
 
 ---
 
@@ -877,34 +707,6 @@ class SafeBot:
             self.modelo.entrenar(mensaje)  # ✅ Seguro
 ```
 
-### 💭 **¿Qué lecciones podemos aplicar a nuestros proyectos web?**
-
----
-
-## 🛠️ Tu checklist de IA responsable
-
-### ✅ **Antes de lanzar cualquier IA en tu web:**
-
-#### 📊 **Datos:**
-- [ ] ¿Los datos son representativos de todos los usuarios?
-- [ ] ¿He verificado sesgos históricos en mis datos?
-- [ ] ¿Tengo suficiente diversidad en el dataset?
-
-#### 🤖 **Algoritmo:**
-- [ ] ¿Puedo explicar cómo funciona en términos simples?
-- [ ] ¿He testado el rendimiento en diferentes grupos demográficos?
-- [ ] ¿Tengo métricas de equidad además de precisión?
-
-#### 👥 **Usuarios:**
-- [ ] ¿Los usuarios saben que están interactuando con IA?
-- [ ] ¿Pueden solicitar explicaciones de las decisiones?
-- [ ] ¿Tienen control sobre cómo se usa la IA?
-
-#### ⚖️ **Legal:**
-- [ ] ¿Cumplo con GDPR y la Ley de IA europea?
-- [ ] ¿Tengo procesos de supervisión humana?
-- [ ] ¿Puedo auditar las decisiones tomadas?
-
 ---
 
 ## 🔮 El futuro de la IA ética
@@ -912,60 +714,13 @@ class SafeBot:
 ### 🌟 **Tendencias emergentes:**
 
 #### 🔍 **IA Explicable (XAI)**
-```python
-# Futuro: IA que se explica automáticamente
-class ExplainableAI:
-    def decidir_y_explicar(self, datos):
-        decision = self.modelo.predict(datos)
-        explicacion = self.modelo.explain(datos)
-        
-        return {
-            'decision': decision,
-            'explicacion': f"Decisión basada en: {explicacion.factores_principales}",
-            'confianza': explicacion.nivel_confianza,
-            'alternativas': explicacion.escenarios_alternativos
-        }
-```
+- Algoritmos y técnicas que permiten entender las decisiones tomadas por la IA
+- IA Potente + Explicabilidad = Adopción + Confianza + Legalidad
 
 #### 🛡️ **IA Federated Learning**
 - Entrenar modelos sin centralizar datos
 - Mayor privacidad por diseño
 - Colaboración sin comprometer seguridad
-
-### 💭 **¿Qué otros avances crees que veremos en IA ética?**
-
----
-
-## 🎯 Pregunta final de reflexión
-
-### 🤔 **Como futuro desarrollador web:**
-
-**¿Cuál es tu responsabilidad ética al crear aplicaciones con IA?**
-
-**Piensa en:**
-- 👥 Los usuarios que las usarán
-- 🌍 El impacto social de tus decisiones
-- ⚖️ La equidad y justicia en tus algoritmos
-- 🔮 Las consecuencias a largo plazo
-
-### 📝 **Comparte tu reflexión:**
-*¿Cómo te asegurarás de que tu IA sea ética y responsable?*
-
----
-
-## 🔗 Próximos pasos
-
-### 📚 **Para profundizar:**
-1. 📖 Lee el **EU AI Act** completo
-2. 🎬 Ve el documental **"Coded Bias"**
-3. 🛠️ Experimenta con **AI Fairness 360** de IBM
-4. 👥 Únete a comunidades de **AI Ethics**
-
-### 🎯 **En tu próximo proyecto:**
-- Implementa un checklist ético
-- Incluye métricas de equidad
-- Diseña interfaces transparentes
-- Planifica auditorías regulares
 
 ---
 
@@ -981,7 +736,6 @@ class ExplainableAI:
 
 4. **🌍 vs 🏢** ¿Quién debe regular la IA: gobiernos o empresas?
 
-### ⏰ **Tiempo para preguntas: 15 minutos**
 
 ---
 
@@ -998,6 +752,12 @@ class ExplainableAI:
 ### 🎯 **La decisión es tuya como desarrollador**
 
 **¿Qué tipo de futuro digital quieres construir?**
+**Piensa en:**
+- 👥 Los usuarios que las usarán
+- 🌍 El impacto social de tus decisiones
+- ⚖️ La equidad y justicia en tus algoritmos
+- 🔮 Las consecuencias a largo plazo
+
 
 ---
 
