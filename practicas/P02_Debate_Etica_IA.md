@@ -100,6 +100,10 @@ Al completar esta práctica, el estudiante será capaz de:
   - Exponer contra-tesis y argumentos principales
 
 **3. Argumentación y refutación (25 minutos)**
+- Cada orador de cada equipo tendrá 3 minutos para refutar al equipo contrario asi como para argumentar y defender su posicion
+- Obligatoriamente todos los miembros del equipo tendran que realizar sus argumentaciones y refutaciones
+- Esta fase se realizará en orden y se establecera una secuencia entre oradores de los distintos equipos.
+
 - **Primer orador Equipo A**: 3 minutos
   - Desarrollar primer argumento principal
 - **Primer orador Equipo B - REFUTA**: 3 minutos
@@ -112,6 +116,7 @@ Al completar esta práctica, el estudiante será capaz de:
   - Reforzar argumentos Y contra-atacar puntos débiles detectados
 - **Tercer orador Equipo B - REFUTA**: 3 minutos
   - Responder refutaciones Y consolidar posición
+
 - **Ronda libre de contra-argumentación**: 7 minutos
   - **Formato**: Intercambio rápido y directo entre equipos
   - **Mecánica**: 
@@ -130,16 +135,17 @@ Al completar esta práctica, el estudiante será capaz de:
 - **Resumen final Equipo A**: 4 minutos
   - Sintetizar posición, responder últimas refutaciones, llamado final
 
-**5. Preguntas y cierre (4 minutos)**
+**5. Preguntas y cierre (3 minutos)**
 - **Preguntas de la audiencia**: 3 minutos
-- **Comentarios finales del moderador**: 1 minuto
 
 **5. Evaluación (5 minutos)**
-- Votación de la audiencia (no vinculante)
 - Feedback del profesor
 - Autoevaluación grupal
 
-#### Criterios de evaluación del debate
+
+## 🎓 Evaluación detallada
+
+### Criterios de evaluación del debate
 
 **Contenido y argumentación (40%)**
 - Solidez de argumentos respaldados por evidencia
@@ -160,6 +166,17 @@ Al completar esta práctica, el estudiante será capaz de:
 - Coordinación entre miembros del equipo
 - Distribución equitativa de participación
 - Apoyo mutuo durante el debate
+
+### Rúbrica del debate grupal
+
+| Criterio | Excelente (4) | Bueno (3) | Satisfactorio (2) | Insuficiente (1) |
+|----------|---------------|-----------|-------------------|------------------|
+| **Argumentación** | Argumentos sólidos, bien estructurados y respaldados por evidencia convincente | Argumentos claros con evidencia adecuada | Argumentos básicos con evidencia limitada | Argumentos débiles o sin evidencia |
+| **Conocimiento** | Demuestra comprensión profunda del tema y contexto | Muestra buen conocimiento con algunos gaps menores | Conocimiento básico suficiente | Conocimiento superficial o incorrecto |
+| **Refutación** | Refuta efectivamente argumentos opuestos con contra-evidencia sólida | Buenas refutaciones con argumentos válidos | Refutaciones básicas pero apropiadas | Refutaciones débiles o inexistentes |
+| **Comunicación** | Presentación clara, persuasiva y bien organizada | Comunicación efectiva con estructura clara | Comunicación aceptable, ocasionalmente confusa | Comunicación pobre o desorganizada |
+| **Trabajo en equipo** | Excelente coordinación y apoyo mutuo | Buena coordinación con participación equilibrada | Coordinación básica, algunas descompensaciones | Pobre coordinación o participación desigual |
+
 
 
 ## 🔍 Preparación para el debate
@@ -207,17 +224,6 @@ Al completar esta práctica, el estudiante será capaz de:
 - **Ofrecer evidencia contraria**: Datos que contradicen la posición opuesta
 - **Mostrar consecuencias no deseadas**: Efectos negativos de la propuesta rival
 
-## 🎓 Evaluación detallada
-
-### Rúbrica del debate grupal
-
-| Criterio | Excelente (4) | Bueno (3) | Satisfactorio (2) | Insuficiente (1) |
-|----------|---------------|-----------|-------------------|------------------|
-| **Argumentación** | Argumentos sólidos, bien estructurados y respaldados por evidencia convincente | Argumentos claros con evidencia adecuada | Argumentos básicos con evidencia limitada | Argumentos débiles o sin evidencia |
-| **Conocimiento** | Demuestra comprensión profunda del tema y contexto | Muestra buen conocimiento con algunos gaps menores | Conocimiento básico suficiente | Conocimiento superficial o incorrecto |
-| **Refutación** | Refuta efectivamente argumentos opuestos con contra-evidencia sólida | Buenas refutaciones con argumentos válidos | Refutaciones básicas pero apropiadas | Refutaciones débiles o inexistentes |
-| **Comunicación** | Presentación clara, persuasiva y bien organizada | Comunicación efectiva con estructura clara | Comunicación aceptable, ocasionalmente confusa | Comunicación pobre o desorganizada |
-| **Trabajo en equipo** | Excelente coordinación y apoyo mutuo | Buena coordinación con participación equilibrada | Coordinación básica, algunas descompensaciones | Pobre coordinación o participación desigual |
 
 ## 💡 Consejos para el éxito
 
@@ -229,25 +235,13 @@ Al completar esta práctica, el estudiante será capaz de:
 - **Gestiona el tiempo**: Distribuye el tiempo equitativamente entre puntos
 ## 🔗 Recursos adicionales
 
-### Materiales de apoyo
-- **Guía de debate académico**: Técnicas y estrategias
-- **Checklist de argumentación**: Para verificar solidez lógica
-- **Ejemplos de ensayos éticos**: Modelos de estructura y argumentación
-- **Base de datos de casos**: Repositorio de casos de estudio actualizados
-
-### Herramientas recomendadas
-- **Argument mapping software**: Lucidchart, MindMeister
-- **Citation managers**: Zotero, Mendeley
-- **Collaborative platforms**: Google Docs, Notion
-- **Timer apps**: Para practicar gestión de tiempo en debates
-
 ## 📋 Entregables
 
 ### Debate grupal
 - **Documento de preparación** (compartido): Argumentos principales, evidencia y fuentes
 - **Participación activa**: En el debate asignado y como audiencia en otros debates
 
-## ❓ Preguntas frecuentes
+<!-- ## ❓ Preguntas frecuentes
 
 **P: ¿Puedo cambiar de equipo una vez asignado?**
 R: Solo en circunstancias excepcionales y con aprobación del profesor.
@@ -256,7 +250,7 @@ R: Solo en circunstancias excepcionales y con aprobación del profesor.
 R: Se reprogramará para la siguiente sesión. En caso extremo, se evaluará con presentación grabada.
 
 **P: ¿Hay penalización por defender una posición con la que no estoy de acuerdo?**
-R: No. El objetivo es desarrollar habilidades argumentativas independientemente de creencias personales.
+R: No. El objetivo es desarrollar habilidades argumentativas independientemente de creencias personales. -->
 
 ---
 
