@@ -135,14 +135,6 @@ Al completar esta práctica, el estudiante será capaz de:
 - **Resumen final Equipo A**: 4 minutos
   - Sintetizar posición, responder últimas refutaciones, llamado final
 
-**5. Preguntas y cierre (3 minutos)**
-- **Preguntas de la audiencia**: 3 minutos
-
-**5. Evaluación (5 minutos)**
-- Feedback del profesor
-- Autoevaluación grupal
-
-
 ## 🎓 Evaluación detallada
 
 ### Criterios de evaluación del debate
