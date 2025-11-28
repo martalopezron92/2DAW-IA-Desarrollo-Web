@@ -396,7 +396,9 @@ Si vienes de Java, JavaScript o C#, estos son los **cambios clave**:
 | **Tipos** | Estático | Dinámico débil | Dinámico fuerte |
 | **Comentarios** | `// /* */` | `// /* */` | `# """ """` |
 
-#### Tipos de datos básicos
+---
+
+### Tipos de datos básicos
 
 ```python
 # números
@@ -422,8 +424,9 @@ vacio = None
 print(type(entero))  # <class 'int'>
 print(type(texto))   # <class 'str'>
 ```
+---
 
-#### Estructuras de control
+### Estructuras de control
 
 ```python
 # IF - SIN PARÉNTESIS, SIN LLAVES
@@ -453,7 +456,7 @@ while contador < 5:
 
 ---
 
-### EJERCICIOS: Estructuras de control (5 minutos)
+### EJERCICIOS: Estructuras de control
 
 **Ejercicio 1: Clasificador de notas**
 ```python
@@ -480,7 +483,7 @@ nota = 7.5
 # Si es divisible por ambos, imprime "FizzBuzz"
 # Si no, imprime el número
 ```
-
+<!-- 
 <details>
 <summary>💡 Ver soluciones</summary>
 
@@ -524,11 +527,11 @@ for i in range(1, 16):
     else:
         print(i)
 ```
-</details>
+</details> -->
 
 ---
 
-#### Estructuras de datos nativas
+### Estructuras de datos nativas
 
 **1. Listas (como Arrays de JavaScript)**
 ```python
@@ -579,54 +582,6 @@ for clave, valor in persona.items():
 if "email" in persona:
     print("Tiene email")
 ```
-
----
-
-<!-- 
-<details>
-<summary> Ver soluciones</summary>
-
-**Solucin Ejercicio 1:**
-```python
-taáreas = ["Estudiar Python", "Hacer ejercicio", "Leer libro", "Comprar comida", "Llamar a Juan"]
-taáreas.append("Revisar emails")
-taáreas.pop(0)  # o taáreas.remove("Estudiar Python")
-print(taáreas)
-# ['Hacer ejercicio', 'Leer libro', 'Comprar comida', 'Llamar a Juan', 'Revisar emails']
-```
-
-**Solucin Ejercicio 2:**
-```python
-estudiante = {
-    "nombre": "Laura",
-    "edad": 20,
-    "nota_media": 7.5,
-    "asignaturas": ["Matemticas", "Fsica", "Programacin"]
-}
-estudiante["asignaturas"].append("IA")
-estudiante["nota_media"] += 0.5
-print(f"Nombre: {estudiante['nombre']}, Nota media: {estudiante['nota_media']}")
-# Nombre: Laura, Nota media: 8.0
-```
-
-**Solucin Ejercicio 3:**
-```python
-temperaturas = [18, 22, 19, 25, 30, 17, 28, 24]
-
-# 1. Filtrado
-temps_altas = [t for t in temperaturas if t > 20]
-print(temps_altas)  # [22, 25, 30, 28, 24]
-
-# 2. Diccionario
-temp_dict = {i: temp for i, temp in enumerate(temperaturas)}
-print(temp_dict)  # {0: 18, 1: 22, 2: 19, ...}
-
-# 3. Slicing
-print(temperaturas[:3])  # [18, 22, 19]
-```
-</details> -->
-
----
 
 **3. Tuplas (listas inmutables)**
 ```python
@@ -704,7 +659,7 @@ grupo_b = {"Carlos", "Elena", "Fernando", "Gloria"}
 # 3. ¿Cuántos estudiantes hay en total (sin repetir)?
 # 4. Elimina duplicados de esta lista: [1, 2, 2, 3, 4, 4, 4, 5]
 ```
-
+<!-- 
 <details>
 <summary>💡 Ver soluciones</summary>
 
@@ -784,11 +739,11 @@ lista_con_duplicados = [1, 2, 2, 3, 4, 4, 4, 5]
 sin_duplicados = list(set(lista_con_duplicados))
 print(sin_duplicados)  # [1, 2, 3, 4, 5]
 ```
-</details>
+</details> -->
 
 ---
 
-#### Funciones
+### Funciones
 
 ```python
 # Definición básica
@@ -895,13 +850,13 @@ print(validar_password("Abcdefgh"))  # False (sin nmero)
 
 ---
 
-#### Programación funcional: map, filter y reduce
+### Programación funcional: map, filter y reduce
 
 Python soporta **programación funcional**, un paradigma donde las funciones son ciudadanos de primera clase y se pueden pasar como argumentos.
 
 **¿Por qué es importante?** En ciencia de datos y ML, transformarás datos constantemente. Estas funciones te permiten hacerlo de forma elegante.
 
-##### 1. map() - Transformar cada elemento
+#### 1. map() - Transformar cada elemento
 
 **Sintaxis:** `map(función, iterable)`
 
@@ -948,7 +903,7 @@ sumas = list(map(lambda x, y: x + y, nums1, nums2))
 print(sumas)  # [11, 22, 33]
 ```
 
-##### 2. filter() - Filtrar elementos
+#### 2. filter() - Filtrar elementos
 
 **Sintaxis:** `filter(función_booleana, iterable)`
 
@@ -994,7 +949,7 @@ activos = list(filter(lambda u: u["activo"], usuarios))
 print([u["nombre"] for u in activos])  # ['Ana', 'Elena']
 ```
 
-##### 3. reduce() - Reducir a un solo valor
+#### 3. reduce() - Reducir a un solo valor
 
 **Sintaxis:** `reduce(función, iterable, valor_inicial)`
 
@@ -1186,7 +1141,7 @@ print(f"Promedio: {promedio:.2f}")  # 210.71
 
 ---
 
-#### List/Dict Comprehensions (MUY PYTHON!)
+### List/Dict Comprehensions (MUY PYTHON!)
 
 ```python
 # Forma tradicional (con bucle)
@@ -1216,7 +1171,7 @@ print(nombres_upper)  # ['ANA', 'CARLOS', 'ELENA']
 
 ### EJERCICIOS: Comprehensions
 
-**Ejercicio 1: Transformacin de datos**
+**Ejercicio 1: Transformación de datos**
 ```python
 # Dada esta lista de precios en euros:
 precios_euros = [10.50, 25.00, 15.75, 8.99, 42.30]
