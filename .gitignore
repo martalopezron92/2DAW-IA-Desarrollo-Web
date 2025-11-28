@@ -1,6 +1,9 @@
 # Carpeta del profesor completa (soluciones, guías, etc.)
 profesor/
 
+# entregas
+entregas/
+
 # Prácticas de estudiantes (excepto P01)
 # practicas/P02_Debate_Etica_IA.md
 practicas/P03_Configuracion_Analisis.md
