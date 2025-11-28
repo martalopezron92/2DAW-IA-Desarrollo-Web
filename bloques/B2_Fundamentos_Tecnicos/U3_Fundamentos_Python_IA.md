@@ -321,8 +321,8 @@ jupyter notebook
 - Puede generar código desorganizado
 
 ---
-
-### Cuál elegir para este curso?
+<!-- 
+### ¿Cuál elegir para este curso?
 
 **Para las clases: VS Code con archivos `.py`**
 - Más profesional
@@ -337,7 +337,7 @@ jupyter notebook
 - Útil para visualización exploratoria
 - No obligatorio
 
----
+--- -->
 
 ### Ejemplo práctico en VS Code
 
