@@ -24,7 +24,9 @@ rubricas/R06_P06_Clustering_Clientes.md
 programacion/
 
 # Bloques de contenido no relacionados con la unidad 1
-bloques/B2_Fundamentos_Tecnicos/
+bloques/B2_Fundamentos_Tecnicos/U4_NumPy_Arrays_Datos.md
+bloques/B2_Fundamentos_Tecnicos/U4b_Siuba_Tratamiento_Datos.md
+bloques/B2_Fundamentos_Tecnicos/U5_Pandas_Analisis_Datos.md
 bloques/B3_Supervisado_NoSupervisado/
 bloques/B4_Deep_Learning/
 bloques/B5_IA_Generativa_y_APIs/
