@@ -8,8 +8,8 @@ Practicar y reforzar los conceptos fundamentales de Python necesarios para traba
 
 - Crea un archivo `.py` para cada ejercicio
 - Prueba tu código con diferentes valores de entrada
-- Si te atascas, revisa los apuntes de la U3
-<!-- - **No es obligatorio completar todos los ejercicios**, haz los que necesites para sentirte cómodo con Python -->
+- Si te atascas, revisa los apuntes de la U3.1
+
 
 ---
 
