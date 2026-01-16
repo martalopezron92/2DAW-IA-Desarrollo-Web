@@ -1,4 +1,4 @@
-# P03b - Evaluación práctica: Fundamentos de Python y NumPy
+# P03a - Evaluación práctica: Fundamentos de Python y NumPy
 
 ## 🎯 Objetivos
 
