@@ -12,15 +12,10 @@ practicas/P04_minilab_datos.md
 practicas/P04b_Siuba_fundamentos.md
 practicas/P05_Regresion_Lineal.md
 practicas/P06_Clustering_Clientes.md
+practicas/OTROS/
 
 # Rúbricas de evaluación (excepto P01)
-rubricas/R02_P02_Debate_Etica_IA.md
-rubricas/R03_P03_Configuracion_Analisis.md
-rubricas/R03b_P03b_Evaluacion_Python_NumPy.md
-rubricas/R04_P04_Minilab_Datos.md
-rubricas/R04b_B2_U4b_Siuba.md
-rubricas/R05_P05_Regresion_Lineal.md
-rubricas/R06_P06_Clustering_Clientes.md
+rubricas/
 
 # Programación y documentación interna
 programacion/
