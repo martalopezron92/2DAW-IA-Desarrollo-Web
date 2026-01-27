@@ -177,6 +177,74 @@ Incluye en el README de tu repositorio:
 # 6. Conclusiones
 ```
 
+### 6. Presentación de resultados (20 puntos)
+
+Deberás crear una presentación que resuma tu proyecto y hallazgos principales. Esta presentación simula la exposición de resultados ante un equipo técnico.
+
+**Requisitos de la presentación:**
+
+#### Contenido obligatorio:
+- ✅ **Portada** (1 diapositiva)
+  - Título del proyecto
+  - Tu nombre y fecha
+  - Tema elegido (música/videojuegos/series)
+
+- ✅ **Introducción** (1-2 diapositivas)
+  - Objetivo del análisis
+  - Descripción del dataset (número de registros, columnas principales)
+  - Metodología de recopilación de datos
+
+- ✅ **Proceso técnico** (2-3 diapositivas)
+  - Resumen del proceso de limpieza de datos
+  - Código Python clave utilizado (snippets importantes)
+  - Tecnologías y librerías empleadas
+
+- ✅ **Resultados del análisis** (3-5 diapositivas)
+  - Principales estadísticas encontradas
+  - Visualizaciones más relevantes (gráficos del análisis)
+  - Interpretación de resultados
+
+- ✅ **Conclusiones** (1-2 diapositivas)
+  - Insights más interesantes descubiertos
+  - Reflexión personal sobre los hallazgos
+  - Limitaciones y posibles mejoras futuras
+
+- ✅ **Aspectos técnicos** (1 diapositiva)
+  - Resumen de técnicas de Pandas utilizadas
+  - Desafíos técnicos encontrados y cómo se resolvieron
+
+**Requisitos de formato:**
+- 📊 **Extensión:** 8-12 diapositivas
+- 💻 **Formato:** PDF, PowerPoint (.pptx) o Google Slides (exportar a PDF)
+- 🎨 **Diseño:** Profesional, limpio y coherente
+- 📝 **Texto:** Claro y conciso (no sobrecargues las diapositivas)
+- 🖼️ **Imágenes:** Incluye capturas de código y gráficos generados
+- 📊 **Visualizaciones:** Deben ser legibles y de alta calidad
+
+**Ejemplo de estructura:**
+```
+1. Portada
+2. Introducción al proyecto
+3. Dataset y metodología
+4. Limpieza de datos y código Python
+5. Análisis estadístico: Resultados principales
+6. Visualización 1: [Gráfico más relevante]
+7. Visualización 2: [Otro gráfico importante]
+8. Visualización 3: [Tercer gráfico]
+9. Insights y patrones descubiertos
+10. Conclusiones y reflexiones
+11. Aspectos técnicos y aprendizajes
+12. Gracias + Contacto (opcional)
+```
+
+**Consejos para una buena presentación:**
+- 🎯 Sé visual: Usa gráficos en lugar de tablas cuando sea posible
+- 💡 Destaca lo importante: Resalta los hallazgos más interesantes
+- 🔬 Muestra código: Incluye snippets clave de Python que demuestren tu trabajo
+- 📈 Cuenta una historia: Guía al lector a través de tu análisis
+- ✨ Mantén la coherencia: Usa la misma paleta de colores y fuentes
+- 🎨 No satures: Mejor menos texto y más visual
+
 ## Entregables
 
 ### Archivos requeridos:
@@ -196,6 +264,11 @@ Incluye en el README de tu repositorio:
    - Breve descripción del proyecto
    - Principales conclusiones
 
+5. **`presentacion_[nombre].pdf`** o **`presentacion_[nombre].pptx`**
+   - Presentación de resultados (8-12 diapositivas)
+   - Formato profesional con gráficos y código
+   - Ejemplo: `presentacion_analisis_musica.pdf`
+
 ### Formato de entrega:
 
 Enlace del repositorio de GITHUB
@@ -205,9 +278,10 @@ Enlace del repositorio de GITHUB
 
 | Criterio | Puntos | Descripción |
 |----------|--------|-------------|
-| **Dataset** | 20 | Calidad, cantidad y relevancia de los datos |
-| **Limpieza** | 15 | Proceso de limpieza documentado y ejecutado |
-| **Estadísticas** | 25 | Variedad y profundidad de análisis realizados |
-| **Visualizaciones** | 25 | Calidad, variedad e interpretación de gráficos |
+| **Dataset** | 15 | Calidad, cantidad y relevancia de los datos |
+| **Limpieza** | 10 | Proceso de limpieza documentado y ejecutado |
+| **Estadísticas** | 20 | Variedad y profundidad de análisis realizados |
+| **Visualizaciones** | 20 | Calidad, variedad e interpretación de gráficos |
 | **Documentación** | 15 | Claridad, estructura y conclusiones |
+| **Presentación** | 20 | Calidad de la presentación y exposición de resultados |
 | **TOTAL** | **100** | |
