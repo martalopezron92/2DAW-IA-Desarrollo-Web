@@ -14,9 +14,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: diapositivas
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,9 +26,11 @@ jobs:
           cache-dependency-path: diapositivas/package-lock.json
 
       - name: Install dependencies
+        working-directory: diapositivas
         run: npm install
 
       - name: Build HTML slides
+        working-directory: diapositivas
         run: npm run build
 
       - name: Upload generated HTML as artifact
