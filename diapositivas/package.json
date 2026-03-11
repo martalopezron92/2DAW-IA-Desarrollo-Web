@@ -4,7 +4,7 @@
   "private": true,
   "description": "Presentación en Marp: Modelos supervisados (clasificación y regresión)",
   "scripts": {
-    "build": "marp -I slides --config marp.config.js --html --output dist",
+    "build": "marp slides/U6-Modelos-Supervisados.md --config marp.config.js --html --output dist/index.html",
     "build:pdf": "marp -I slides --config marp.config.js --pdf --output dist",
     "dev": "marp -I slides --config marp.config.js --server --watch"
   },
